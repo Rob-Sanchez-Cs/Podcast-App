@@ -43,7 +43,6 @@ const EmblaCarousel = ({ fansLikeDetail }: CarouselProps) => {
     >
       <div className="flex">
         {slides.slice(0, 5).map((item) => {
-          console.log(item)
           return (
           <figure
             key={item._id}
